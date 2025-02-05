@@ -1,0 +1,34 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --snitap-sun: #FFCD1E;
+    --snitap-sky-mid: #06B6D4;
+    --snitap-sky-light: #67E8F9;
+    --snitap-joy-mid: #DB2777;
+    --snitap-joy-light: #F472B6;
+    --snitap-leaf-mid: #16A34A;
+
+    --text: #000000;
+    --highlights: #000000;
+    --background: #FAFAFA;
+
+    --font-family-syne: "Syne", serif;
+    --font-family-montserrat: "Montserrat", serif;
+    --font-family-inter: "Inter", serif;
+    --font-family-roboto-mono: "Roboto Mono", monospace;
+
+    --heading-lg: 700 4rem/1.25 var(--font-family-syne);
+    --heading-md: 700 2.5rem/1.2 var(--font-family-syne);
+    --text-md: 500 1rem/1.5 var(--font-family-montserrat);
+    --text-sm: 500 .875rem/1.5 var(--font-family-montserrat);
+    --text-xs: 500 .75rem/1.3 var(--font-family-inter);
+    --signature: .875rem var(--font-family-roboto-mono);
+}
+
+body {
+    background-color: aqua;
+}
