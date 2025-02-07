@@ -22,8 +22,6 @@ section.gallery {
         display: grid;
         grid-template-areas: "A B B" "C C D";
         gap: 2.5rem;
-
-        
     }
 
     & figure {

@@ -23,6 +23,7 @@
 
     --heading-lg: 700 4rem/1.25 var(--font-family-syne);
     --heading-md: 700 2.5rem/1.2 var(--font-family-syne);
+    --heading-sm: 700 1.25rem/1.3 var(--font-family-syne);
     --text-md: 500 1rem/1.5 var(--font-family-montserrat);
     --text-sm: 500 .875rem/1.5 var(--font-family-montserrat);
     --text-xs: 500 .75rem/1.3 var(--font-family-inter);
@@ -35,10 +36,6 @@ body {
 
 html, button {
     font: var(--text-md);
-}
-
-html {
-    zoom: .4;
 }
 
 h1 {
